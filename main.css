@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #02040f;
+    color: white;
+}
+/* 
+nav{
+    background: #0d1b2a;
+    
+    font-size: 20px;
+}
+ */
+
+ nav{
+    background: #0d1b2a;
+    position: fixed;
+    z-index: 5;
+    font-size: 20px;
+}
+
+.banner{
+    padding: 1vh;
+}
+
+.banner img{
+    position: absolute;
+    height: 20vh;
+}
+
+.linki{
+    text-align: center;
+}
+
+.linki a{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 2vh 3vw;
+}
+
+.link{
+    transition: .5s;
+}
+
+.link:hover{
+    background-color: white;
+    color: #0d1b2a;
+}
+
+.carousel-item img{
+    height: 83vh;
+}
+
+.slider-text{
+    text-align: center;
+    font-size: 200%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    position: absolute;
+    color:white;
+    
+}
+
+.slider-text a{
+    font-size: 300%;
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none;
+}
+
+.slider-text a:hover{
+    color: inherit;
+}
+.item {
+    display: none;
+    position: relative;
+    transition: .1s ease-in-out left !important;
+}
+
+.podzialka{
+    background-color:white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .carousel-item img{
+        height: 80%;
+    }
+
+    .dlaczego .zdjecie img{
+        width: 100%;
+    }
+
+    nav{
+        position: relative;
+    }
+    .banner img{
+        opacity: 0;
+    }
+}
+
+.dlaczego{
+    font-size: 120%;
+    line-height: 160%;
+}
+  
+.dlaczego .zdjecie img{
+    height: 50vh;
+}
+
+ol.a {
+    list-style-type: upper-roman;
+}
+
+ul.b {
+    text-align: left;
+    list-style-type: circle;
+}
+
+.czerwony{
+    transition: .3s;
+      color: #E63946;
+      text-decoration: none;
+}
+
+.aktywny{
+    border: 1px solid #E63946 !important;
+}
+
+.aktywny:hover{
+    background-color: #E63946;
+    color:white;
+}
+
+footer{
+    text-align: center;
+    padding:1% 0 ;
+    background-color: #0d1b2a;
+
+}
+footer button{
+    font-size: 120%;
+    background-color: transparent;
+    border: 2px dashed #F1FAEE;
+    color: white;
+    padding: 1% 4%;
+    transition: .4s;
+}
+
+footer button:hover{
+    background-color: #F1FAEE;
+    color: #0d1b2a;
+}
+
+table{
+    font-size: 140%;
+    margin-top: 5vw;
+    text-align: left;
+}
+
+.oferta{
+    padding-top: 5%;
+}
+
+.kontakt{
+    padding-top: 7vw;
+}
+
+table tr:first-child{
+    background-color: #457B9D;
+}
+
+.formularz{
+    text-align: center;
+}
+
+.formularz input{
+    padding: 1%;
+    border: 2px solid #1D3557;
+    border-radius: 5px;
+    background-color: #182a44;
+    color:white;
+}
+
+
+.formularz textarea{
+    width: 60%;
+    height: 50;
+    padding: 1%;
+    border: 2px solid #1D3557;
+    border-radius: 5px;
+    background-color: #182a44;
+    color:white;
+}
+
+.formularz #dodaj{
+    padding: 1.5%;
+    border: 2px solid #E63946;
+    background-color: transparent;
+    border-radius: 25px;
+    color:white;
+    transition: .4s;
+}
+
+#dodaj:hover{
+    background-color: #E63946;
+}
+
+#lista{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#edytuj{
+    padding: 1.5%;
+    border:none;
+    text-decoration: underline;
+    background-color: transparent;
+    border-radius: 25px;
+    color:white;
+    transition: .4s;
+}
